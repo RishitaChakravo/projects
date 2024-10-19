@@ -36,6 +36,7 @@ a:not(#fp){
     margin: 2px;
 }
 #heading{
+    text-align: center;
     display: block;
     color: rgb(16, 0, 62);
     width: 100%;
@@ -97,9 +98,18 @@ input:not(#rp){
     }
     
     a:not(#fp){
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 5vw;
+        padding-left: 5vw;
     }
+    .icons{
+        display: inline-block;
+        height: 40px;
+        border-radius: 50%;
+        border: solid;
+        border-color: rgb(161, 161, 161);
+        border-width: 5px;
+    }
+
 }
 @media (max-width: 1430px){
     #login{
@@ -118,7 +128,6 @@ input:not(#rp){
         padding-left: 30px;
     }
 }
-
 @media (max-width: 1300px){
     #login{
         left: 100%;
@@ -137,3 +146,82 @@ input:not(#rp){
         padding-left: 8vw;
     }
 }
+@media (max-width: 1195px){
+    #login{
+        left: 100%;
+        padding: 100px;
+        width: 100%;
+        height: 100vh;
+        margin: 2px;
+    }
+    .container img{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    a:not(#fp){
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+}
+@media (max-width: 570px){
+    #login{
+        left: 100%;
+        padding: 50px;
+        width: 100%;
+        height: 100vh;
+        margin: 2px;
+    }
+    .container img{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    a:not(#fp){
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .icons{
+        display: inline-block;
+        height: 40px;
+        border-radius: 50%;
+        border: solid;
+        border-color: rgb(161, 161, 161);
+        border-width: 2px;
+    }
+}
+
+@media (max-width: 380px){
+    #login{
+        left: 100%;
+        padding: 50px;
+        padding-bottom: 0px;
+        width: 100%;
+        height: 100vh;
+        margin: 2px;
+        margin-bottom: 30px;
+    }
+    .container img{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    a:not(#fp){
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .icons{
+        display: inline-block;
+        height: 40px;
+        border-radius: 50%;
+        border: solid;
+        border-color: rgb(161, 161, 161);
+        border-width: 2px;
+    }
+    #heading pre{
+        font-size: 30px;
+        color: rgb(16, 0, 62);;
+    }
+}
+
+
