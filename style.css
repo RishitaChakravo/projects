@@ -1,0 +1,50 @@
+.root{
+    font-size: 62.5%;
+}
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5em;
+    width: 70vw;
+    background-color: white;
+    box-shadow: 5px 5px;
+    color: grey;
+}
+#result{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+input#input{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+input#ctof{
+    cursor: pointer;
+}
+input#ftoc{
+    cursor: pointer;
+}
+button{
+    background-color: red;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.2em 1.5em;
+    color: white;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(250, 92, 92);
+}
+h1{
+    color: rgb(0, 102, 255);
+}
+label{
+    color: black;
+    font-size: 1.2rem;
+}
