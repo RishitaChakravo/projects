@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(111, 12, 156);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+div{
+    background-color:white;
+}
+form{
+    padding: 5px;
+}
+input:not(.friend,.exp){
+    width:100%;
+}
+.exp{
+    width: 5%
+}
+button{
+    background-color: rgb(66, 225, 66);
+    text-align: center;
+    width: 100%;
+}
