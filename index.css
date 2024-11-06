@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scrollbar-width: none;
+    font-size: 62.5%;
+}
+header{
+    background-image: url('./bg.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header div{
+    position: fixed;
+}
+ul{
+    display: flex;
+}
+ul li{
+    color: rgba(56, 45, 45, 0.697);
+    font-size: 2.5rem;
+}
+ul li:nth-child(2){
+    padding-left: 35vw;
+    padding-right: 35vw;
+}
+.page2{
+    height: 100vh;
+}
+.left-side{
+    background-image: url(image1.png);
+    background-size: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 99vw;
+    display: block;
+    float:left;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.left{
+    background-color: rgb(224, 207, 99);
+    width: 48vw;
+    height: 100vh;
+}
+.left img{
+    height: 45vh;
+    display: block;
+    margin: 0px auto;
+    padding: 2em 0;
+}
+.left h2{
+    font-size: 7rem;
+    /* margin-top: 2em; */
+    text-align: center; 
+    font-weight: none;
+}
+.left p{
+   text-align: center;
+   font-size: 3rem;
+   margin-bottom: 2em; 
+}
+.left-special{
+    background-color: black;
+    width: 48vw;
+    height: 100vh;
+}
+.left-special img{
+    height: 45vh;
+    display: block;
+    margin: 0px auto;
+    padding: 5em 0;
+}
+.left-special h2{
+    color: white;
+    font-size: 7rem;
+    /* margin-top: 2em; */
+    text-align: center; 
+    font-weight: none;
+}
+.left-special p{
+    width: 40vw;
+    color: white;
+   text-align: center;
+   font-size: 3rem;
+   margin-bottom: 2em; 
+}
+.right{
+    width: 50vw;
+    height: 20em;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
